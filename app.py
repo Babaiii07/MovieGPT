@@ -25,7 +25,7 @@ def get_movie_chain():
     return chain
 
 def main():
-    st.set_page_config(page_title="Movie Recommendations", layout="wide")
+    st.set_page_config(page_title="MovieGPT", layout="wide")
     st.header("🎥 ASK ME ANYTHING ABOUT MOVIES 🤖")
 
     question = st.text_input("Enter your question:")
