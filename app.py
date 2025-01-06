@@ -53,8 +53,7 @@ def main():
         }
         </style>
         <div class="footer">
-            Developed by <a href="https://github.com/Babaiii07" target="_blank">Parthib Karak</a>
-                <img src="https://media.licdn.com/dms/image/v2/D4D03AQHA0kMEuC5kbA/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1691222092711?e=1741824000&v=beta&t=vN-tfPJh3F_2CvyRU-_OTjWE4Bmzds-dlw0cLBBJ4jE" alt="GitHub Profile" class="profile-image" />
+            
             </a>
         </div>
     """, unsafe_allow_html=True)
