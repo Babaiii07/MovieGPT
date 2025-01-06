@@ -26,9 +26,9 @@ def get_movie_chain():
 
 def main():
     st.set_page_config(page_title="MovieGPT", layout="wide")
-    st.header("🎥 ASK ME ANYTHING ABOUT MOVIES 🤖")
+    st.header("🎥 MovieGPT 2.0 🤖")
 
-    question = st.text_input("Enter your question:")
+    question = st.text_input("Enter your Movie related question:")
     if question:
         chain = get_movie_chain()
         response = chain.run({"question": question})
